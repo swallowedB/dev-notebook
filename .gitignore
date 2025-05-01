@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+out/
+.tmp/
+.temp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*.local
+
+# VSCode
+.vscode/
+.history/
+
+# MacOS
+.DS_Store
+
+# Logs
+logs
+*.log
+log/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Jest
+jest-test-results.json
+
+# Optional IDE or editor settings
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ESLint cache
+.eslintcache
+
+# Playwright / Puppeteer / Cypress test output
+test-results/
+playwright-report/
+.cypress/
