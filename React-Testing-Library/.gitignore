@@ -1,0 +1,38 @@
+# --- 기본 Node ---
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+
+# --- 환경 변수 ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Next.js ---
+.next/
+out/
+.vercel/
+coverage/
+
+# --- Velite (자동 생성 폴더) ---
+.velite/
+public/static/
+
+# --- 빌드/캐시 ---
+dist/
+.cache/
+tmp/
+*.tsbuildinfo
+
+# --- IDE 관련 ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS / 기타 ---
+Thumbs.db
